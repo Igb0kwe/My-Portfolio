@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
   title: 'Kagozie Igbokwe',
-  description: 'Portfolio of Kagozie Igbokwe, a full-stack developer.',
+  description: 'Portfolio of Kagozie Igbokwe',
 };
 
 export default function RootLayout({
