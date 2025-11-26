@@ -1,3 +1,4 @@
+
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { ProjectCard } from "./project-card";
 
@@ -15,6 +16,13 @@ const projectsData = [
     imageUrl: PlaceHolderImages.find(p => p.id === 'project-1')?.imageUrl ?? "",
     imageHint: PlaceHolderImages.find(p => p.id === 'project-1')?.imageHint ?? "",
     codeUrl: "https://github.com/Igb0kwe/Land-price-prediction-model",
+  },
+  {
+    title: "SPECS",
+    description: "A simple desktop app to view and compare specifications between the latest phones phones",
+    imageUrl: PlaceHolderImages.find(p => p.id === 'project-2')?.imageUrl ?? "",
+    imageHint: PlaceHolderImages.find(p => p.id === 'project-2')?.imageHint ?? "",
+    codeUrl: "https://github.com/Igb0kwe/SPECS",
   },
 ];
 
